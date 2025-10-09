@@ -1,0 +1,109 @@
+/* Full-screen background with overlay */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: url("data:image/webp;base64,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")
+    no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Semi-transparent glass container */
+.container {
+  background: rgba(255, 255, 255, 0.25); /* frosted glass effect */
+  padding: 40px 35px;
+  border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  width: 350px;
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+}
+
+h1 {
+  margin-bottom: 25px;
+  font-size: 30px;
+  color: #ffffff;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Labels styling */
+.converter label {
+  display: block;
+  text-align: left;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 5px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Input and select fields */
+.converter input,
+.converter select {
+  padding: 12px;
+  margin-bottom: 15px;
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  outline: none;
+  transition: all 0.3s;
+}
+
+.converter input:focus,
+.converter select:focus {
+  border-color: #00d4ff;
+  box-shadow: 0 0 12px rgba(0, 212, 255, 0.5);
+  background: rgba(255, 255, 255, 0.8);
+}
+
+/* Button styling */
+button {
+  padding: 14px 30px;
+  margin-top: 10px;
+  border: none;
+  background: linear-gradient(45deg, #00d4ff, #007bff);
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 12px;
+  transition: all 0.3s;
+}
+
+button:hover {
+  background: linear-gradient(45deg, #007bff, #00d4ff);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 212, 255, 0.5);
+}
+
+/* Result styling */
+.result {
+  margin-top: 25px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+/* Responsive adjustments */
+@media (max-width: 400px) {
+  .container {
+    width: 90%;
+    padding: 30px 20px;
+  }
+  h1 {
+    font-size: 26px;
+  }
+}
